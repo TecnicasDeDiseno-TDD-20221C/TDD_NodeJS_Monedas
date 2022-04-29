@@ -1,0 +1,24 @@
+Hay una moneda que cambia su 
+cotización en el tiempo. 
+Implementar un sistema con reglas 
+simples:
+
+    - Dada una billetera que tengo 
+    puedo agregarle monedas y despues 
+    poder estar monitoreando las
+    cotizaciones en el mercado.
+
+    - Registrar el pico máximo cuando 
+    cayó un 5%.
+
+    - Registrar el pico mínimo cuando 
+    subió un 5%.
+
+    - Si baja un 5% vendo, y si sube 
+    un 5% compro de nuevo. Esa es la 
+    idea ppal. SIEMPRE SE MIDE 
+    RESPECTO DEL MÍNIMO O MÁXIMO 
+    ABSOLUTO Y NO TIENE PORQUE SER 
+    UNA SUBIDA/BAJADA CONTINUA.
+
+    - Al detectar la regla básicamente se reinician los máximos y mínimos.
